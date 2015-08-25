@@ -1,6 +1,5 @@
-/*
- Sieve's Method
-*/
+/* Sieve's Method*/
+
 import java.util.ArrayList;
 import java.util.List;
 
