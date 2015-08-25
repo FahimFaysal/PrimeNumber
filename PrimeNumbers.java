@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Using the sieve of Eratosthenes
+
 public class PrimeNumbers {
   public static List<Integer> calcPrimeNumbers(int n) {
     boolean[] isPrimeNumber = new boolean[n + 1]; // boolean defaults to
@@ -30,7 +31,6 @@ public class PrimeNumbers {
     for (Integer integer : calcPrimeNumbers) {
       System.out.println(integer);
     }
-    System.out.println("Prime counting function (Pie(N)) : "
-                         + calcPrimeNumbers.size());
+    System.out.println("Prime counting function (Pie(N)) : "  + calcPrimeNumbers.size());
   }
 }
